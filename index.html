@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CAD-Based Aerospace Design and 3D Modelling</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="loader"><svg viewBox="0 0 120 120" width="120"><circle cx="60" cy="60" r="48" class="orb"/><circle cx="60" cy="60" r="30" class="orb o2"/><g class="jet"><path d="M60 6l5 14-5 4-5-4z" fill="#3de6ff"/></g></svg><p>Initialising CAD environment <b id="pct">0</b>%</p></div>
+<canvas id="gl"></canvas>
+<div id="wipe"></div>
+<header><span id="topic"></span><span id="count"></span></header>
+<main id="ui"></main>
+<footer>
+<button id="prev" aria-label="Previous slide">‹</button>
+<nav id="dots"></nav>
+<button id="next" aria-label="Next slide">›</button>
+<button id="fs" aria-label="Toggle fullscreen">Fullscreen (F)</button>
+<div id="bar"><i></i></div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="app.js"></script>
+</body></html>
